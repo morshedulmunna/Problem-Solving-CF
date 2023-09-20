@@ -26,6 +26,14 @@ int main()
     s.arr = new int[s.size];
     s.top = -1;
 
+    // push(&s, 20);
+    // push(&s, 30);
+    // push(&s, 60);
+    // push(&s, 80);
+
+    // cout << peek(&s, 1)<< endl;
+    // cout << peek(&s, 1)<< endl;
+
     return 0;
 }
 
@@ -66,12 +74,14 @@ int peek(struct Stack *s, int indx)
     if (s->top - indx + 1 < 0)
     {
         cout << "Invalid Position!";
+        return -1;
     }
     else
     {
+        cout << s->top << endl;
+
         return s->arr[s->top - indx + 1];
     }
-    return 0;
 }
 
 // takeing top value

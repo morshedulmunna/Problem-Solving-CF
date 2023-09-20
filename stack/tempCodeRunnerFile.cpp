@@ -1,1 +1,0 @@
-isFull(s)

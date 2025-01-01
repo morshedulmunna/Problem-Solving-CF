@@ -1,4 +1,10 @@
-// solution.rs
+// Problem Leet-code Link: https://leetcode.com/problems/unique-email-addresses/description/
+
+/*
+   Md. Morshedul Islam Munna
+   gitHub: https://github.com/morshedulmunna
+*/
+
 use std::collections::HashSet;
 
 pub struct Solution;
